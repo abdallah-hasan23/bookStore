@@ -1,0 +1,383 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Almarai", sans-serif;
+}
+
+header {
+  height: 100vh;
+  background-image: url(../images/bg-header.png);
+  background-color: #FDF8EE;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+header .navbar .button {
+  background-color: #4D2C5E;
+  color: #fff;
+  border: 1px solid #4D2C5E;
+  padding: 7px 30px;
+  border-radius: 30px;
+  transition: all 0.5s;
+}
+header .navbar .button:hover {
+  background-color: #fff;
+  color: #4D2C5E;
+}
+header .navbar-nav {
+  margin-right: 25px;
+}
+header .navbar-nav .nav-item {
+  margin-right: 15px;
+}
+header .features {
+  position: absolute;
+  height: 200px;
+  width: 1200px;
+  background-color: #4c2b5d;
+  border-radius: 10px;
+  top: 600px;
+  bottom: -20px;
+  left: 170px;
+}
+header .features-cards {
+  display: flex;
+  max-height: 137px;
+  max-width: 340px;
+  margin-left: 40px !important;
+  text-align: center;
+  justify-content: center;
+}
+header .features-cards .bg-icon {
+  background-color: rgba(255, 255, 255, 0.3);
+  height: 80px;
+  width: 220px;
+  border-radius: 15px;
+}
+header .features-cards img {
+  height: 54px;
+  width: 54px;
+}
+header .features-cards .features-title {
+  font-size: 23px;
+  font-weight: bold;
+  line-height: 33px;
+}
+header .features-text {
+  color: #fff;
+  margin-left: 10px;
+}
+header .features-text p {
+  font-size: 15px;
+  line-height: 28px;
+}
+
+section.tracks {
+  margin-top: 95px;
+}
+section.tracks h1 {
+  color: #000;
+  font-family: Jost;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 70px */
+  text-transform: capitalize;
+}
+section.tracks p {
+  color: #8A8A8A;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section.tracks .cards-course .price {
+  color: #FF7426;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+section.tracks .cards-course hr {
+  margin-top: 30px;
+  border-bottom: 2px dotted #ACACAC;
+}
+section.tracks .cards-course .custom-thumbnail img {
+  padding: 10px;
+  border-radius: 25px;
+}
+section.tracks .cards-course .card {
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0px 4px 25px 0px rgba(0, 0, 0, 0.1);
+  position: relative;
+  padding: 0px 0px 25px 0;
+}
+section.tracks .cards-course .card-body .details i {
+  color: #000;
+  font-size: 12px;
+}
+section.tracks .cards-course .card-body .details span {
+  color: #ACACAC;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section.tracks .cards-course h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-right: 15px;
+}
+section.tracks .cards-course p {
+  color: #8A8A8A;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+section.tracks .cards-course .rating {
+  color: #FFA135;
+}
+section.tracks .cards-course .overlay {
+  position: absolute;
+  left: 110px;
+  top: 365px;
+}
+section.tracks .cards-course .overlay button {
+  background-color: #FF7426;
+  color: #fff;
+  border: 1px solid #FF7426;
+  padding: 7px 30px;
+  border-radius: 30px;
+  transition: all 0.5s;
+  padding: 7px 10px;
+  width: 175px !important;
+  height: 45px;
+  flex-shrink: 0;
+}
+section.tracks .cards-course .overlay button:hover {
+  background-color: #fff;
+  color: #FF7426;
+}
+section.premium {
+  background-color: #FDF8EE;
+  height: 600px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 120px;
+}
+section.premium .frame {
+  height: 600px;
+  width: 600px;
+}
+section.premium .premium-text {
+  margin-top: 145px;
+  margin-left: 225px;
+  font-family: "Roboto", sans-serif !important;
+  font-size: 69px;
+  font-family: "Roboto";
+  font-weight: 900 !important;
+}
+section.premium .premium-text span {
+  color: #FF7426;
+}
+section.premium .premium-text h1.move {
+  margin-right: 133px;
+}
+section.premium .experience {
+  margin-left: 225px;
+}
+section.premium .experience-icon {
+  background-color: #4D2C5E;
+  padding: 15px;
+  border-radius: 23px;
+}
+section.premium .experience-text {
+  padding-top: 10px;
+}
+section.premium .experience-text h3 {
+  color: #050C26;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 171%; /* 51.3px */
+}
+section.premium .experience-text p {
+  color: #8A8A8A;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 171%; /* 44.46px */
+}
+section.comments {
+  height: 600px;
+  background-image: url(../images/Frame\ \(1\).png);
+  background-size: auto;
+}
+section.comments p {
+  color: #ACACAC;
+}
+section.comments body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+section.comments .swiper {
+  width: 100%;
+  height: 300px;
+  margin-top: 50px;
+  position: relative;
+}
+section.comments .swiper .swiper-pagination {
+  background-color: transparent;
+  position: absolute;
+  top: 230px;
+  margin: 0;
+  padding: 0;
+  height: 30px;
+}
+section.comments .swiper-slide {
+  margin: 0;
+  height: 200px;
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 88px 0px rgba(0, 0, 0, 0.05);
+}
+section.comments .swiper-slide p {
+  color: #ACACAC;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+section.comments .swiper-slide .text {
+  float: left;
+  padding: 25px 15px 0 15px;
+}
+section.comments .swiper-slide .text h5 {
+  color: #050C26;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  text-transform: capitalize;
+}
+section.comments .swiper-slide .text p {
+  color: #ACACAC;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+section.comments .swiper-slide img {
+  display: flexbox;
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  object-fit: cover;
+  margin: 20px 0 0 20px;
+}
+section.subscribe {
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  height: 490px;
+}
+section.subscribe .subscribe-box {
+  background-color: #4D2C5E;
+  width: 1000px;
+  height: 320px;
+  margin-left: 140px;
+}
+section.subscribe .subscribe-title {
+  padding-top: 80px;
+  color: #fff;
+}
+section.subscribe .subscribe-form .custom-form-control {
+  border-radius: 50px;
+  background-color: #FDF8EE;
+  width: 500px;
+  height: 50px;
+  margin-left: 245px;
+  text-decoration: none;
+  position: relative;
+}
+section.subscribe .subscribe-form button {
+  background-color: #FF7426;
+  color: #fff;
+  border: 1px solid #FF7426;
+  padding: 7px 30px;
+  border-radius: 30px;
+  transition: all 0.5s;
+  position: absolute;
+  top: 3003px;
+  left: 895px;
+}
+section.subscribe .subscribe-form button:hover {
+  background-color: #fff;
+  color: #FF7426;
+}
+
+footer {
+  background-color: #FDF8EE;
+  padding: 50px;
+}
+footer .footer-title {
+  margin-bottom: 30px;
+  position: relative;
+}
+footer .footer-title::after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 5px;
+  background-color: #FF7426;
+  right: 255px;
+  bottom: -15px;
+}
+footer .link-unstyled {
+  text-decoration: none;
+  color: #000;
+}
+footer .social-media {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+footer .social-media-icon {
+  display: inline;
+  margin: 10px;
+}
+footer .social-media-icon img {
+  width: 40px;
+}
+footer .footer-brand {
+  color: #4D2C5E;
+  font-size: 30px;
+  margin: auto;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
